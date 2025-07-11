@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "host": "vite --host --open"
+    "host": "vite --host --open",
+    "start": "npm run build && npm run preview"
   },
   "dependencies": {
     "normalize.css": "^8.0.1",
